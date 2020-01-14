@@ -15,7 +15,7 @@ function pug_html(done) {
 }
 
 function css_style(done) {
-    gulp.src('./src/styles/**/*.scss')
+    gulp.src('./src/styles/style.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({
             errLogToConsole: true,
@@ -47,7 +47,7 @@ function browserReload(done) {
 
 function watchFile() {
     gulp.watch('./src/views/**/*.pug', pug_html);
-    gulp.watch('./src/styles/**/*.scss', css_style);
+    gulp.watch('./src/styles/components/*.scss', css_style);
     gulp.watch('./**/*.html', browserReload);
     gulp.watch('./**/*.js', browserReload);
 }
