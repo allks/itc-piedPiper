@@ -2,6 +2,8 @@ doctype html
 html(lang='en')  
   head
     title Pied Piper
+    link(rel="stylesheet", href="src/styles/assets/reset.css")
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     link(rel="stylesheet", href="style.css")
   body
     .wrapper
@@ -9,7 +11,7 @@ html(lang='en')
         .container
           include components/nav.pug
       section.hero
-        .container
+        .container.hero-wrap
           h1.title PiperNet Is Here
       section.problem
         .container
@@ -27,4 +29,5 @@ html(lang='en')
           h2.sub-title The Team
           include components/team.pug
       footer.footer
-        include components/footer.pug
+        .container
+          include components/footer.pug
