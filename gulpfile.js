@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create();
 
 function pug_html(done) {
-    gulp.src('./src/views/**/*.pug')
+    gulp.src('./src/views/index.pug')
         .pipe(pug({pretty: true}))
         .pipe(gulp.dest('./'))
         .pipe(browserSync.stream())
