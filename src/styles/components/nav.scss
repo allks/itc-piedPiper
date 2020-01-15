@@ -1,4 +1,8 @@
 .nav  {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
   background-color: #007765;
   color: #fff;
   &--logo {
@@ -6,6 +10,9 @@
     align-items: center;
     height: 84px;
     width: 100%;
+  }
+  &--logo-pic {
+    cursor: pointer;
   }
   &--menu-list  {
     display: flex;
