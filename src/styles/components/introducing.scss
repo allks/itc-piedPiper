@@ -1,10 +1,13 @@
 .pic-decoration {
-  width: 115px;
-  height: 115px;
+  min-height: 115px;
   background-image: url('/src/img/ppc-logo.png');
   background-repeat: no-repeat;
+  & > span {
+    display: inline-block;
+    margin: 0 0 0 125px;
+  }
 }
 span {
-  display: inline-block;
   font-size: 32px;
+  margin: 20px 0;
 }
