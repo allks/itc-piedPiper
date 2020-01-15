@@ -1,0 +1,19 @@
+.banner {
+  height: 483px;
+  background-image: url('/src/img/banner.jpg');
+  background-repeat: no-repeat;
+}
+.banner-wrap  {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.banner-description {
+  max-width: 893px;
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  font-style: italic;
+}

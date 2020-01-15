@@ -1,0 +1,12 @@
+.problem-description {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 72px;
+  & > p {
+    font-size: 32px;
+    margin: 20px 0;
+    & > span {
+      font-weight: bold;
+    }
+  }
+}
