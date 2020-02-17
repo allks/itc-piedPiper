@@ -106,15 +106,26 @@ body {
   min-height: 115px;
   background-image: url("/src/img/ppc-logo.png");
   background-repeat: no-repeat; }
-  .pic-decoration > span {
+  .pic-decoration > p {
     display: inline-block;
     margin: 0 0 0 125px; }
 
-span {
+p {
   font-size: 32px;
   margin: 20px 0; }
 
 .team {
   background-color: #eee; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.person-team {
+  margin: 70px 105px;
+  text-align: center; }
+  .person-team--image {
+    border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */

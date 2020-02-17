@@ -1,3 +1,15 @@
 .team {
   background-color: #eee;
 }
+
+.row{
+  display: flex;
+}
+
+.person-team{
+  margin: 70px 105px;
+  text-align: center;
+  &--image{
+    border-radius: 50%;
+  }
+}

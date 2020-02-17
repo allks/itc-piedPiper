@@ -2,12 +2,12 @@
   min-height: 115px;
   background-image: url('/src/img/ppc-logo.png');
   background-repeat: no-repeat;
-  & > span {
+  & > p {
     display: inline-block;
     margin: 0 0 0 125px;
   }
 }
-span {
+p {
   font-size: 32px;
   margin: 20px 0;
 }
