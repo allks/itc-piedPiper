@@ -2,14 +2,14 @@
   background-color: #eee;
 }
 
-.row{
+.row {
   display: flex;
 }
 
-.person-team{
+.person-team {
   margin: 70px 105px;
   text-align: center;
-  &--image{
+  &--image {
     border-radius: 50%;
   }
 }
