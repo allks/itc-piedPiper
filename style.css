@@ -118,15 +118,34 @@ p {
   background-color: #eee; }
 
 .row {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 40px 0; }
 
 .person-team {
-  margin: 70px 105px;
-  text-align: center; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  word-wrap: break-word; }
   .person-team--image {
     border-radius: 50%; }
+  .person-team--name, .person-team--description {
+    max-width: 200px; }
+  .person-team--name {
+    color: #007765;
+    font-size: 24px;
+    margin: 10px 0; }
 
 .footer {
   display: -webkit-box;

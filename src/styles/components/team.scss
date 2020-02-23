@@ -3,13 +3,27 @@
 }
 
 .row {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
 }
 
 .person-team {
-  margin: 70px 105px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
   &--image {
     border-radius: 50%;
+  }
+  &--name,
+  &--description {
+    max-width: 200px;
+  }
+  &--name {
+    color: #007765;
+    font-size: 24px;
+    margin: 10px 0;
   }
 }
